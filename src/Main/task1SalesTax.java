@@ -1,7 +1,8 @@
+import java.util.Scanner;
 public class task1SalesTax {
     public static void main(String[] args) {
-        double priceOfPurchase = 10.0;
-        double salesTax = 0.05 * priceOfPurchase;
+        int priceOfPurchase = (int) 10.0;
+        double salesTax = (0.05 * priceOfPurchase);
         System.out.println("The price of the purchase is" + priceOfPurchase + "and the sales tax is" + salesTax);
     }
 }
